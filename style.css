@@ -1,0 +1,434 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+    position: relative;
+    top: 18px;
+    left: 4%;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 45px;
+    position: absolute;
+    left: 33%;
+    top: 4%;
+}
+
+.list li {
+    color: #fff;
+}
+
+.btn-1 {
+    position: absolute;
+    right: 9%;
+    background: transparent;
+    top: -4%;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 8px 46px;
+    margin-left: 50px;
+    color: #fff;
+    border: 1px solid lightsteelblue;
+    cursor: pointer;
+
+}
+
+.log {
+    height: 6vh !important;
+    width: 18vh !important;
+    color: #fff;
+    filter: invert();
+}
+
+img {
+    height: 50vh;
+    width: 50vh
+}
+
+.email-div {
+    width: 300px;
+    position: relative;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.email-click {
+    position: relative;
+    left: 168vh;
+    top: -7vh;
+    width: 15vh;
+
+    right: 0px;
+    z-index: 2;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #79ad62;
+    transform: translateX(2px);
+}
+.email-icon{
+    width: 11px;
+    height: 10px;
+    position: absolute !important;
+    left: 128vh !important;
+    top: 0vh !important;
+    z-index: 2;
+    
+}
+
+.share-Icons img {
+    width: 5vh;
+    height: 5vh
+}
+
+.container {
+    background-color: #758283;
+}
+
+.Main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    align-items: center;
+    padding: 20px;
+    margin: 120px 10px;
+}
+
+.Main-Heading h1 {
+
+    position: absolute;
+    top: 15%;
+    font-size: 42px;
+    left: 60%;
+    width: 23%;
+    color: #fff;
+}
+
+.Main-Heading h4 {
+    position: absolute;
+    left: 60%;
+    top: 39%;
+    width: 24%;
+    line-height: 27px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+input[type=email] {
+    position: relative;
+    left: 127vh;
+    top: -2vh;
+    padding: 19px 22px;
+    width: 57vh;
+}
+
+.main-content img {
+    position: relative;
+    top: 6vh;
+    left: 22vh;
+}
+
+.connect h1 {
+    font-size: 40px;
+    width: 76vh;
+    position: relative;
+    left: 69vh;
+    top: 7vh;
+    text-align: center;
+}
+
+.connections {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 95px 0px;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.text {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+    justify-content: space-evenly;
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: -6%;
+    line-height: 29px;
+    color: #758283;
+}
+
+.group2 {
+    display: flex;
+    flex-basis: max-content;
+    height: auto;
+    max-width: 100%;
+    width: 86%;
+    max-height: 56vh;
+    margin-left: 7%;
+    margin-top: 3%;
+
+}
+
+.tag {
+    font-size: 41px;
+    width: 54vh;
+    position: relative;
+    left: 69vh;
+    top: 10vh;
+    font-weight: 600;
+    text-align: center;
+}
+
+.main3 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 130px 110px;
+}
+
+.main-heading3 h1 {
+    font-size: 36px;
+    position: absolute;
+    margin-top: 11%;
+    left: 10%;
+    width: 61vh;
+}
+
+.main-heading3 h4 {
+    position: absolute;
+    margin-top: 18%;
+    left: 10%;
+    width: 61vh;
+    line-height: 26px;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 53vh;
+    left: 21vh;
+    padding: 12px 50px;
+    color: #fff;
+    background: #6AC47E;
+    border: none;
+}
+
+.main4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: -6vh;
+    margin-left: 18vh;
+}
+
+.main-heading4 h1 {
+    font-size: 36px;
+    position: absolute;
+    margin-top: -1%;
+    left: 67%;
+    width: 61vh;
+}
+
+.main-heading4 h4 {
+    position: absolute;
+    margin-top: 9%;
+    left: 67%;
+    width: 61vh;
+    line-height: 26px;
+}
+
+.main-heading4 .btn1 {
+    position: absolute;
+    margin-top: 33vh;
+    right: 48vh;
+    padding: 12px 50px;
+    color: #fff;
+    background: #6AC47E;
+    border: none;
+}
+
+.sales {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 110px 100px;
+}
+
+.main-heading5 h1 {
+    font-size: 36px;
+    position: absolute;
+    margin-top: 10%;
+    left: 9%;
+    width: 61vh;
+}
+
+.main-heading5 h4 {
+    position: absolute;
+    margin-top: 20%;
+    left: 9%;
+    width: 61vh;
+    line-height: 26px;
+}
+
+.main-heading5 .btn2 {
+    position: absolute;
+    margin-top: 57vh;
+    left: 20vh;
+    padding: 12px 50px;
+    color: #fff;
+    background: #6AC47E;
+    border: none;
+}
+
+.Team>h1 {
+    padding: 0px 126px;
+    width: 76vh;
+}
+
+.card-introduction {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.Team h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.Team h4 {
+    position: relative;
+    left: 125vh;
+    width: 61vh;
+    top: -11vh;
+    line-height: 26px;
+    color: #758283;
+}
+
+.card1 {
+    position: relative;
+    left: 1%;
+}
+
+.card2 {
+    position: absolute;
+    left: 39%
+}
+
+.card3 {
+    position: relative;
+    right: -15%;
+}
+
+.card1 h1 {
+    margin: 3px;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.card1 h5 {
+    font-size: 17px;
+    font-weight: 100;
+    width: 61%;
+    padding: 3px 0px
+}
+
+.card2 h1 {
+    margin: 3px;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.card2 h5 {
+    padding: 3px 0px;
+    font-size: 17px;
+    font-weight: 100;
+    width: 61%;
+}
+
+.card3 h1 {
+    margin: 3px;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.card3 h5 {
+    padding: 3px 0px;
+    font-size: 17px;
+    font-weight: 100;
+    width: 61%;
+}
+
+.more{
+position: absolute;
+    margin-top: 66vh;
+    left: 89vh;
+    padding: 12px 50px;
+    color: #fff;
+    background: #6AC47E;
+    border: none;
+}
+
+.Total-footer{
+    background-color: #242B2E;
+    margin-top: 15vh;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 68px;
+}
+
+.share-Icons{
+    filter: invert(); 
+ } 
+ .share-Icons i{
+    font-size: 30px;
+ }
+
+.hr{
+    background-color: #758283;
+    width: 92%;
+    margin-left: 67px
+}
+
+.footer{
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color:#8da3a4;
+    padding: 53px 93px;
+    line-height: 38px;
+}
+
+.footer ul{
+list-style: none;
+}
+
+.footer ul .head{
+    font-weight: 600;
+    font-size: 23px;
+    color: #fff;
+    line-height: 52px;
+}
